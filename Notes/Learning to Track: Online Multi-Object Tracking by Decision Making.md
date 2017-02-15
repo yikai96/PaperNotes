@@ -11,3 +11,6 @@
 
 -----------------------------
 ## 总体思路
+![](./img/We formulate the online multi-object tracking problem as decision making in a Markov Decision Process (MDP) framework.PNG)
+
+![](./img/The target MDP in our framework.png)
