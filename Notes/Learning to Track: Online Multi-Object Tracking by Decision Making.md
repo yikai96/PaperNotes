@@ -27,3 +27,4 @@
 ### offline-learning 和 online-learning 的优劣以及本文如何利用两者的优势的
 ![](./img/pros and cons between offline-learning and online-learning)
 
+视频中的离线学习难道不是一帧一帧地进行训练，为何会存在不能够使用先前历史信息的问题？思考其离线学习的机器学习是如何进行实现的？
