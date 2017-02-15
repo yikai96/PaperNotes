@@ -1,5 +1,5 @@
-# Learning to Track: Online Multi-Object Tracking by Decision Making
-|               | Learning to Track: Online Multi-Object Tracking by Decision Making |
+# Online Multi-Target Tracking Using Recurrent Neural Networks
+|               | Online Multi-Target Tracking Using Recurrent Neural Networks |
 | ------------- | -------------            |
 | Writer | Anton Milan et al. The University of Adelaide |
 | Publication | AAAI 2017 |
