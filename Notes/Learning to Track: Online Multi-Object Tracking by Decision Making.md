@@ -27,6 +27,7 @@
 # 附录
 ## offline-learning 和 online-learning
 ![](./img/pros and cons between offline-learning and online-learning.png)    
+
 由图中我们可以看到，offline-learning是得到的一种静态数据集，能够很好地获取视频中的所有目标信息并为其进行标记，但是其不能够记录目标的历史信息; online-learning 可以记录目标的历史信息，但是由于其在线性，不可能很好地根据数据标签分类，进行监督。    
 ***视频中的离线学习难道不是一帧一帧地进行训练，为何会存在不能够使用先前历史信息的问题？思考其离线学习的机器学习是如何进行实现的？***    
 在这篇论文中，使用强化学习可以很好地利用offline-learning可以在跟踪之前进行训练的优势，以及online-learning可以使用目标的历史的特性进行更好地训练。
