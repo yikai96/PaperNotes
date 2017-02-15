@@ -10,6 +10,4 @@
 | Contributions | DAN(Deep Adaptation Network)在无人机迁移学习中的实现 |
 
 -----------------------------
-----------------------------------
-
 ## Berief Idea 
