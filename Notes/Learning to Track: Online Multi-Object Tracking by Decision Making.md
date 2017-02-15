@@ -10,6 +10,10 @@
 | Contributions | Utilize Decision Making for MOT(MDPS)|
 
 -----------------------------
+## 摘要
+在线多目标追踪在time-critical 的视频分析场景中有着广泛的应用，例如：机器人导航以及自动驾驶。在通过检测来进行追踪(tracking-by-detection)的思路方面，在线多目标追踪的一个主要挑战就是怎样健壮性地将新帧中的噪声对象检测与先前被追踪的对象联系起来。在我们的论文中，我们将在线多目标追踪问题视为马尔科夫决策过程(MDPs-Markov Decision Processes)中的决策制定，其中一个目标物体的寿命通过MDP进行建模。学习数据关联的相似性函数等同于学习MDP中的决策(policy)。同时，policy learning 接近于强化学习，它可以同时利用offline-learning 和 online-learning的优势。此外，通过使用现有的在线单一目标追踪的方法，将目标是做MDP中的状态转换，我们的框架能够自然地处理目标的birht/death 和appearance/disappearance。我们在MOT Benchmark上去验证了我们方法的高效性。
+
+
 ## 总体思路
 ![](./img/We formulate the online multi-object tracking problem as decision making in a Markov Decision Process (MDP) framework.PNG)
 
