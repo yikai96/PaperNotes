@@ -16,5 +16,12 @@
 
 ## 总体思路
 ![](./img/We formulate the online multi-object tracking problem as decision making in a Markov Decision Process (MDP) framework.PNG)
+图为将online MOT视作是MDP中决策问题的框架。从图中可以看到，将多目标追踪转换为单一目标追踪，根据其是否在帧中呈现将其划分状态。
 
 ![](./img/The target MDP in our framework.png)
+图为MDP在论文中使用的结构。可见，首先将多目标追踪问题转变为了多个单目标追踪问题，然后每个单目标都仅有四种状态。初始时任何目标都是Active的状态，...(很明显), 最后的状态都是Inactive。如果Lost经过一个较长的时间t那么该目标也会进入非激活状态。
+
+## 附录
+### offline-learning 和 online-learning 的优劣以及本文如何利用两者的优势的
+![](./img/pros and cons between offline-learning and online-learning)
+
