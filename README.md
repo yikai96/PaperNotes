@@ -10,7 +10,7 @@ Scene Graph Generation by Iterative Message Passing [(Note)](./Notes/Scene Graph
 A Machine Learning Approach to Visual Perception of Forest Trails for Mobile Robots    [(Note)](./Notes/A Machine Learning Approach to Visual Perception of Forest Trails for Mobile Robots.md)   [(pdf)](http://rpg.ifi.uzh.ch/docs/RAL16_Giusti.pdf)    
 Learning Transferable Policies for Monocular Reactive MAV Control  [(Note)](./Notes/Learning Transferable Policies for Monocular Reactive MAV Control.md)   [(arXiv)](https://arxiv.org/abs/1608.00627)
 
-===========================
+---------------------------
 
 ## Feb, 2018
 **Mainly focus on Online Multi-Object Tracking**   
@@ -21,7 +21,8 @@ Online Multi-Target Tracking Using Recurrent Neural Networks   [(Note)](./Notes/
 
 ============================
 
-**WGAN**
+**WGAN**      
+
 Towards Principled Methods Fof Training Generative Adversarial Networks  [(arXiv)](https://arxiv.org/abs/1701.04862)  Wasserstein GAN  [(arXiv)](https://arxiv.org/abs/1701.07875) 
 
 ============================
