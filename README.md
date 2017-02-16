@@ -9,7 +9,7 @@ Learning Transferable Policies for Monocular Reactive MAV Control  [(Note)](./No
 
 Learning to Track: Online Multi-Object Tracking by Decision Making  [(Note)](./Notes/Learning to Track: Online Multi-Object Tracking by Decision Making.md) [(pdf and Slide)](http://cvgl.stanford.edu/projects/MDP_tracking/)      
 Learning Multi-Domain Convolutional Neural Network for Visual Tracking  [(Note)](./Notes/Learning Multi-Domain Convolutional Neural Network for Visual Tracking.md)   [(arXiv)](https://arxiv.org/abs/1510.07945)     
-Online Multi-Target Tracking Using Recurrent Neural Networks   [(Note)](./Notes/Online Multi-Target Tracking Using Recurrent Neural Networks.md)   [(arXiv)](https://arxiv.org/abs/1604.03635) 
-TOWARDS PRINCIPLED METHODS FOR TRAINING GENERATIVE ADVERSARIAL NETWORKS  [(arXiv)](https://arxiv.org/abs/1701.04862)  Wasserstein GAN  [(arXiv)](https://arxiv.org/abs/1701.07875) 
+Online Multi-Target Tracking Using Recurrent Neural Networks   [(Note)](./Notes/Online Multi-Target Tracking Using Recurrent Neural Networks.md)   [(arXiv)](https://arxiv.org/abs/1604.03635)     
+Towards Principled Methods Fof Training Generative Adversarial Networks  [(arXiv)](https://arxiv.org/abs/1701.04862)  Wasserstein GAN  [(arXiv)](https://arxiv.org/abs/1701.07875) 
 
 
