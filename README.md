@@ -23,7 +23,7 @@ Online Multi-Target Tracking Using Recurrent Neural Networks   [(Note)](./Notes/
 
 **WGAN**      
 
-Towards Principled Methods Fof Training Generative Adversarial Networks  [(arXiv)](https://arxiv.org/abs/1701.04862)  Wasserstein GAN  [(arXiv)](https://arxiv.org/abs/1701.07875) 
+Towards Principled Methods Fof Training Generative Adversarial Networks  [(arXiv)](https://arxiv.org/abs/1701.04862)  Wasserstein GAN  [(arXiv)](https://arxiv.org/abs/1701.07875)   [(Note)](https://zhuanlan.zhihu.com/p/25071913)
 
 ============================
 
