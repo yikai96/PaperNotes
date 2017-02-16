@@ -13,7 +13,7 @@ Learning Transferable Policies for Monocular Reactive MAV Control  [(Note)](./No
 ---------------------------
 
 ## Feb, 2018
-**Mainly focus on Online Multi-Object Tracking**   
+**Online Multi-Object Tracking**   
 
 Learning to Track: Online Multi-Object Tracking by Decision Making  [(Note)](./Notes/Learning to Track: Online Multi-Object Tracking by Decision Making.md) [(pdf and Slide)](http://cvgl.stanford.edu/projects/MDP_tracking/)      
 Learning Multi-Domain Convolutional Neural Network for Visual Tracking  [(Note)](./Notes/Learning Multi-Domain Convolutional Neural Network for Visual Tracking.md)   [(arXiv)](https://arxiv.org/abs/1510.07945)     
