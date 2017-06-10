@@ -31,6 +31,8 @@ Towards Principled Methods Fof Training Generative Adversarial Networks  [(arXiv
 
 ## June, 2017
 **Multi Object Tracking with Deep Reinforcement Learning**
+
+
 Deep Reinforcement Learning for Visual Object Tracking in Videos   [(arXiv)](https://arxiv.org/abs/1701.08936)                           
 End-to-end Active Object Tracking via Reinforcement Learning     [(arXiv)](https://arxiv.org/abs/1705.10561)                       
 Action-Decision Networks for Visual Tracking with Deep Reinforcement Learning     [(youtube)](https://www.youtube.com/watch?v=RK-PmiRdYzo)                     
