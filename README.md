@@ -50,7 +50,7 @@ Foundations of Statistical Language Processing  [book](./Mar17/Manning_Schuetze_
 ## April 2017
 
 The Beauty of Code (Wu Jun)     [note1](./Apr17/《数学之美》阅读笔记(1).pdf)     
-Stanford NLP Lecture CS 224   [note1-pdf](./Apr17/Stanford-NLP-Lecture-CS224-Note-1.pdf)   [note1-doc](./Apr17/stanford-nlp-lecture-notes-1.docx)
+Stanford NLP Lecture CS 224   [note1-pdf](./Apr17/Stanford-NLP-Lecture-CS224-Note-1.pdf)   [note1-doc](./Apr17/stanford-nlp-lecture-notes-1.docx)                             
 Tables as Semi-structured Knowledge for Question Answering    [pdf](./Apr17/Tables-as-Semi-structured-Knowledge-for-Question-Answering.pdf)
 
 ## June, 2017
