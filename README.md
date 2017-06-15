@@ -29,7 +29,40 @@ Towards Principled Methods Fof Training Generative Adversarial Networks  [(arXiv
 
 ------------------------
 
+
+
+## Mar 2017
+
+**NLP concepts and books**
+
+Distributed Representations of Words and Phrases and their Compositionality [pdf](./Mar17/Distributed-Representations-of-Words-and-Phrases-and-their-Compositionality.pdf)          
+
+Efficient Esitimation of Word Representations in Vector Space  [pdf](./Mar17/Efficient-Esitimation-of-Word-Representations-in-Vector-Space.pdf)        
+
+GloVe--Global Vectors for Word Representation [pdf](./Mar17/GloVe--Global-Vectors-for-Word-Representation.pdf)            
+
+Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank   [pdf](./Mar17/Recursive-Deep-Models-for-Semantic-Compositionality.pdf)   
+
+Natural Language Processing with Python [book](./Mar17/NLPWithPython.pdf)        
+
+Speech and Language Processing [book](./Mar17/Speech-and-Language-Processing.pdf)      
+
+Foundations of Statistical Language Processing  [book](./Mar17/Manning_Schuetze_StatisticalNLP.pdf)
+
+-------------------------------------------------------------------------------------------------------------------
+
+
+
+## April 2017
+
+The Beauty of Code (Wu Jun)     [note1](./Apr17/《数学之美》阅读笔记(1).pdf)     
+
+Stanford NLP Lecture CS 224   [note1-pdf](./Apr17/Stanford-NLP-Lecture-CS224-Note-1.pdf)   [note1-doc](./Apr17/stanford-nlp-lecture-notes-1.docx)
+
+Tables as Semi-structured Knowledge for Question Answering    [pdf](./Apr17/Tables-as-Semi-structured-Knowledge-for-Question-Answering.pdf)
+
 ## June, 2017
+
 **Multi Object Tracking with Deep Reinforcement Learning**
 
 

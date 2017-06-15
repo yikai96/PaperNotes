@@ -1,0 +1,132 @@
+﻿Stanford NLP Lecture(CS224) Notes(1)
+授课人：
+Richard Socher
+录制时间：
+Spring 2015
+笔记作者：
+易凯(William Yi), 西安交通大学2015级软件工程系本科生
+学习起始时间：
+01/11/2017
+学习时间节点：
+01/12/2017 完成所有内容的阅读
+学习完成时间：
+01/13/2017 写读书笔记
+基本内容：
+Keyphrases: NLP, Word Vectors, Singular Value Decomposition, Skip-gram, Continuous Bag of Words(CBOW)， Negative Sampling.
+内容展开：
+此笔记从讲解nlp的概念以及当前nlp遇到的问题开始，然后讨论以数字向量为基准讲解词表示的基本概念，最后，讨论了设计词向量的流行方法。
+中文翻译：
+http://blog.csdn.net/han_xiaoyang/article/details/51567822
+
+Introduction to Natural Language Processing
+NLP目标
+为解决某些任务而设计相应的算法去理解自然语言
+NLP任务分层
+简单级：
+拼写检查，关键词查找，同义词查找
+一般级：
+从网页、文本中解析信息
+困难级：
+机器翻译，语义分析，推断(he 表示的是什么)，问答系统(QA)
+词向量(Word Vectors)
+One-hot vector
+概念：一个处理某一行是1其他行都是0的列向量。
+
+
+特点：
+简便直观。但是任何两个向量之间都是线性无关的，但是实际上词汇之间或多或少都是存在联系的，因此在减小规模，减小计算量上存在障碍。
+
+SVD Based Methods
+Word-Document Matrix 
+猜想：
+相关的词通常在同一个文本中出现
+实践：
+遍历上亿的文本，当词汇i出现在文本j中时，我们在Xij位置加1
+缺陷：
+猜想存在一定的不精确性，且生成的矩阵V*M,规模太大
+SVD        (奇异值分解)
+理论描述：
+
+Word-Word Co-occurrence Matrix
+(词词共建矩阵)
+算法步骤：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+实例：
+如果语料库中有三句话：I enjoy flying, I like NLP, I like deep learning.
+那么我们可以列出词词共建矩阵为：
+通过奇异值分解，可以显著地降低词的维度。
+最后得到的结果是个什么鬼？？？
+
+缺陷(问题)：
+1. 矩阵的维数经常改变(新词的添加和语料库大小的变化)；
+2. 得出的矩阵很稀疏；
+3. 矩阵规模仍然很大(10的6次方)；
+4. SVD的训练算法复杂度为平方级别；
+5. 可能存在词频率的剧烈失衡
+
+部分解决方法：
+1. 忽略诸如“the”，“he”，“has”等的功能词(function words)
+2. 应用ramp window，使用距离来权衡词词之间的相关性；
+3. Use Pearson correlation and set negative counts to 0 instead of using just raw count.(神马意思？)
+
+
+
+Iteration Based Methods
+基本思想：
+通过迭代学习参数，来找出概率最大的句子组合，以此来匹配编码单词，从而降低计算复杂度
+
+基本语言模型
+(一元模型，
+二元模型)
+一元模型(Unigram Model)：
+
+
+
+二元模型(Bigram Model):
+
+
+
+词袋模型(Bag of Word)
+词袋模型概念：
+不考虑句子中的语法、词间关系和顺序，将文本中出现的词使用one-hot向量表示的方法。
+具体实例：
+如果两段文本，将两段文本中出现的所有词构成一个该维度的列向量，然后将每个文本中对应的词出现的次数写在相应的位置即可。
+连续词袋模型(CBOW)
+连续词袋模型：
+从一个构造特定环境的文本中预测中间词语.(Predicting a center word from the surrounding context)
+
+举例：
+我喜欢(吃)妈妈削过皮的苹果。此处通过句意我们可以在该句中添加“吃”。
+
+连续词袋模型的算法步骤：
+
+注：
+具体实践相对而言比较复杂，暂时不对其进行深入的涉及。
+Skip-gram模型
+
+模型概念：
+通过一个给定的词来预测最可能的环境文本。(Predicting surrounding context words given a center word)
+
+算法步骤：
+
+负取样(Negative Sampling)
+负采样本质上是一种带权采样问题。
+暂时不是太清楚，详情参见http://hacker.duanshishi.com/?p=1577
+以及http://blog.csdn.net/itplus/article/details/37998797
+
+
+
