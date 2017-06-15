@@ -36,3 +36,11 @@ End-to-end Active Object Tracking via Reinforcement Learning     [(arXiv)](https
 Action-Decision Networks for Visual Tracking with Deep Reinforcement Learning     [(youtube)](https://www.youtube.com/watch?v=RK-PmiRdYzo)
 
 
+
+**Introduction to transfer learning**
+
+A Survey on Transfer Learning.  [pdf](./June2017/tkde_transfer_learning.pdf)   [ppt](./June2017/A-Survey-on-Transfer-Learning.ppt) 
+
+Transfer Learning for Reinforcement Learning Domains: A Survey    [pdf](./June2017/taylor09a.pdf)
+
+
