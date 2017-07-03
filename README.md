@@ -1,3 +1,10 @@
+## July, 2017
+**Multi Ojbect Tracking with Deep Reinforcement Learning**
+
+Learning to Track: Online Multi-Object Tracking by Decision Making  [(Note)](./Feb17/Learning-to-Track.md) [(pdf and Slide)](http://cvgl.stanford.edu/projects/MDP_tracking/)        
+Automatic Goal Generation for Reinforcement Leanring Agents    [arXiv](https://arxiv.org/abs/1705.06366)     
+Automatic Curriculum Graph Generation for Reinforcement Learning Agents       [arXiv](https://www.cs.utexas.edu/~pstone/Papers/bib2html-links/AAAI17-Svetlik.pdf)
+
 ## June, 2017
 
 **Multi Object Tracking with Deep Reinforcement Learning**
@@ -40,8 +47,7 @@ Foundations of Statistical Language Processing  [book](./Mar17/Manning_Schuetze_
 
 ## Feb, 2017
 **Online Multi-Object Tracking**   
-
-Learning to Track: Online Multi-Object Tracking by Decision Making  [(Note)](./Feb17/Learning-to-Track.md) [(pdf and Slide)](http://cvgl.stanford.edu/projects/MDP_tracking/)      
+ 
 Learning Multi-Domain Convolutional Neural Network for Visual Tracking  [(Note)](./Feb17/ML-approach-to-Multi-Domain-CNN-for-VT.md)   [(arXiv)](https://arxiv.org/abs/1510.07945)     
 Online Multi-Target Tracking Using Recurrent Neural Networks   [(Note)](./Feb17/Online-Multi-Target-Tracking-Using-RNN.md)   [(arXiv)](https://arxiv.org/abs/1604.03635)  
 
