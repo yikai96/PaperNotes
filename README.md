@@ -5,6 +5,8 @@ Learning to Track: Online Multi-Object Tracking by Decision Making  [(Note)](./F
 Automatic Goal Generation for Reinforcement Leanring Agents    [arXiv](https://arxiv.org/abs/1705.06366)     
 Automatic Curriculum Graph Generation for Reinforcement Learning Agents       [arXiv](https://www.cs.utexas.edu/~pstone/Papers/bib2html-links/AAAI17-Svetlik.pdf)
 
+--------------------------------------
+
 ## June, 2017
 
 **Multi Object Tracking with Deep Reinforcement Learning**
